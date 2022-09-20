@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linkding.Client", "Linkding.Client\Linkding.Client.csproj", "{C579107E-C076-4F95-8FCC-FF0991EA86F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linkding.Importer", "Linkding.Importer\Linkding.Importer.csproj", "{D82F312E-43EE-40F3-88DE-9A8E5EF4F9C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linkding.Updater", "Linkding.Updater\Linkding.Updater.csproj", "{C24AC3DD-4AFF-4602-9A71-A6D177F60A1B}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D1100D5-3862-4AB6-914C-87050D51B13F}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C579107E-C076-4F95-8FCC-FF0991EA86F5}.|Any CPU.ActiveCfg = |Any CPU
+		{C579107E-C076-4F95-8FCC-FF0991EA86F5}.|Any CPU.Build.0 = |Any CPU
+		{D82F312E-43EE-40F3-88DE-9A8E5EF4F9C4}.|Any CPU.ActiveCfg = |Any CPU
+		{D82F312E-43EE-40F3-88DE-9A8E5EF4F9C4}.|Any CPU.Build.0 = |Any CPU
+		{C24AC3DD-4AFF-4602-9A71-A6D177F60A1B}.|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24AC3DD-4AFF-4602-9A71-A6D177F60A1B}.|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		|Any CPU = |Any CPU
+	EndGlobalSection
+EndGlobal

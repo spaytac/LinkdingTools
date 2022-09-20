@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <UserSecretsId>c2dbd0a7-f476-4ffb-a0a5-06877e261193</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="6.0.1" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+        <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+        <PackageReference Include="Serilog" Version="2.12.0" />
+        <PackageReference Include="Serilog.Extensions.Hosting" Version="5.0.1" />
+        <PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="4.1.0" />
+        <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Linkding.Client\Linkding.Client.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
